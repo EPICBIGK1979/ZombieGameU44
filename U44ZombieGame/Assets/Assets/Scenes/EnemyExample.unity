@@ -5797,7 +5797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6167883049704599990, guid: 2ef38ca45cdb5c24a9937ed751a1ae21, type: 3}
       propertyPath: gunDamage
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6167883049704599990, guid: 2ef38ca45cdb5c24a9937ed751a1ae21, type: 3}
       propertyPath: reloadTime
