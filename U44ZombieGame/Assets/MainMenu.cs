@@ -9,4 +9,9 @@ public class MainMenu : MonoBehaviour //This is the public class for my main men
     {
         SceneManager.LoadSceneAsync(1);
     }
+
+    public void QuitGame() //Public quit game
+    {
+        Application.Quit();
+    }
 }
