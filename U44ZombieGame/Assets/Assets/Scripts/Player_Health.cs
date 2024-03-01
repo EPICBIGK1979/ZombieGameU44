@@ -24,6 +24,6 @@ public class Player_Health : MonoBehaviour
 
     void GameOver(){
         
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
