@@ -90,7 +90,7 @@ public class Raycast_Gun : MonoBehaviour
         score++;
         scoreText.text = "Score: " + score;
         if(score >=20){
-            SceneManager.LoadScene(+1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }

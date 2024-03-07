@@ -27,7 +27,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840522844096896280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.14}
+  m_LocalPosition: {x: 0, y: 0, z: -0.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -115,7 +115,6 @@ GameObject:
   - component: {fileID: 4143442116010710190}
   - component: {fileID: 4048434602159417764}
   - component: {fileID: 5241561062274323928}
-  - component: {fileID: 8512235531853078125}
   m_Layer: 0
   m_Name: MeleeEnemy 1
   m_TagString: Untagged
@@ -167,10 +166,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.8891516
-  m_Height: 3.4926257
+  m_Radius: 0.54653823
+  m_Height: 3.3416433
   m_Direction: 1
-  m_Center: {x: 0.015839577, y: 0.32698464, z: -0.7816553}
+  m_Center: {x: 0.015839577, y: 0.40247583, z: -0.8223046}
 --- !u!195 &4143442116010710190
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -222,27 +221,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
---- !u!65 &8512235531853078125
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2950032977196049799}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &6437201917325785318
 PrefabInstance:
   m_ObjectHideFlags: 0
