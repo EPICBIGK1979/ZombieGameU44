@@ -83,7 +83,7 @@ public class Raycast_Gun : MonoBehaviour
       void AddScore(){
         score++;
         scoreText.text = "Score: " + score;
-        if(score >=50){
+        if(score >=100){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
