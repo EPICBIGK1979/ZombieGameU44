@@ -12025,8 +12025,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyToSpawn:
-  - {fileID: 2950032977196049799, guid: 22eaf467db798b946a3c818162e978f7, type: 3}
-  - {fileID: 2950032977196049799, guid: 22eaf467db798b946a3c818162e978f7, type: 3}
+  - {fileID: 2950032977196049799, guid: 978a63062ebeb794e985fe23fa3245db, type: 3}
+  - {fileID: 2950032977196049799, guid: 978a63062ebeb794e985fe23fa3245db, type: 3}
   spawnRate: 2
 --- !u!4 &1252655641
 Transform:
@@ -15821,7 +15821,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: a5158876edbf0604f9fa3c19225b2b69, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: be841b5c298b3ef42866821a591ec968, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &1535360163
 Transform:
@@ -15832,7 +15832,7 @@ Transform:
   m_GameObject: {fileID: 1535360161}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.36, z: 0}
+  m_LocalPosition: {x: 3.3, y: 8.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

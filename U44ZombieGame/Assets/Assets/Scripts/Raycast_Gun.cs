@@ -19,12 +19,6 @@ public class Raycast_Gun : MonoBehaviour
    
     private float nextFire;
  
-   
- 
- 
- 
- 
- 
     // Start is called before the first frame update
     void Start()
     {
@@ -89,7 +83,7 @@ public class Raycast_Gun : MonoBehaviour
       void AddScore(){
         score++;
         scoreText.text = "Score: " + score;
-        if(score >=20){
+        if(score >=50){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
